@@ -1,0 +1,189 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #0f0f0f, #000000);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 2px solid #636262;
+    background: #111;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #00ff7f;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #00ff7f;
+}
+
+/* Заголовок страницы */
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    font-size: 3em;
+}
+
+h1 .highlight {
+    color: #00ff7f;
+    text-decoration: underline;
+}
+
+/* Контейнер */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+}
+
+/* Списки */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Ссылки */
+a {
+    color: #00ff7f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Код */
+pre {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Кнопки */
+button {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button:hover {
+    background: #00ff7f;
+    color: black;
+}
+
+/* Контейнер страницы */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота - 100% высоты viewport */
+}
+
+/* Контент страницы */
+.content {
+    flex: 1; /* Занимает все свободное пространство */
+}
+
+/* Футер */
+footer {
+    background: #111;
+    color: #aaa;
+    padding: 20px 50px;
+    text-align: center;
+    border-top: 2px solid #636262;
+    margin-top: 50px;
+    /* width: 100%; Добавляем ширину 100% */
+}
+
+/* Форма */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+footer .social-icons .icon {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+footer .social-icons .icon:hover {
+    color: #00ff7f;
+}
