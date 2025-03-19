@@ -2,9 +2,6 @@
 
 Тестовое создание Api, наработки визуализации CRUD API в CodeIgniter4.
 
-## Содержание
-
-
 ## На компьютере установленно:
 * Ubuntu 22.04
 * Docker version 27.3.1 - официальный сайт https://docs.docker.com/
@@ -297,4 +294,4 @@
 -   PUT /api/students/{id}
 -   DELETE /api/students/{id}
 
-## <span style="color: #00ff99;">Удачи!</span>
+## Удачи!
