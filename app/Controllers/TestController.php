@@ -46,4 +46,12 @@ class TestController extends BaseController
         return view('delete_student', compact('id', 'title'));
     }
 
+    public function studentsListTable()
+{
+    $data = [
+        'title' => 'Список студентов'
+    ];
+    return view('students_list_table', $data);
+}
+
 }

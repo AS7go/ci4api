@@ -6,11 +6,14 @@
 
         <h2>Меню</h2>
         <ul>
+            <li><a href="/test/students-table">Список студентов (таблица)</a></li>
             <li><a href="/test/students">Список студентов</a></li>
             <li><a href="/test/students/2">Детали студента (ID 2)</a></li>
             <li><a href="/test/add-student">Добавить студента</a></li>
             <li><a href="/test/update-student/2">Обновить студента (ID 2)</a></li>
             <li><a href="/test/delete-student/2">Удалить студента (ID 2)</a></li>
+
+            
         </ul>
 
         <h2>Описание</h2>

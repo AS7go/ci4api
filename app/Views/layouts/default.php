@@ -3,6 +3,7 @@
 <head>
     <title><?= $title ?></title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/styles1.css">
 </head>
 <body>
     <div class="page-container">
@@ -11,6 +12,7 @@
             <nav>
                 <a href="/">Главная</a>
                 <a href="/test/students">Студенты</a>
+                <a href="/test/students-table">Список студентов (таблица)</a>
             </nav>
         </header>
 

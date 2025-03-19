@@ -1,0 +1,107 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #17201a; /* Цвет фона шапки таблицы */
+    color: #ffffff; /* Добавляем белый цвет текста */
+}
+
+/* .btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+} */
+
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px; /* Уменьшаем padding для имитации btn-sm */
+    margin-bottom: 0;
+    font-size: 14px; /* Уменьшаем размер шрифта для имитации btn-sm */
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-outline-primary {
+    /* color: #0d6efd; /* Цвет текста */
+    /* border-color: #0d6efd; /* Цвет границы */
+    color: #81b4ff; /* Цвет текста */
+    border-color: #81b4ff; /* Цвет границы */
+    background-color: transparent; /* Прозрачный фон */
+}
+
+.btn-outline-primary:hover {
+    color: #fff; /* Белый цвет текста при наведении */
+    background-color: #0d6efd; /* Синий фон при наведении */
+    border-color: #0d6efd;
+}
+
+.btn-outline-danger {
+    /*color: #dc3545; /* Цвет текста */
+    /*border-color: #dc3545; /* Цвет границы */
+    color: #f28b82; /* Светло-красный цвет текста */
+    border-color: #f28b82; /* Светло-красный цвет границы */
+    background-color: transparent; /* Прозрачный фон */
+}
+
+.btn-outline-danger:hover {
+    color: #fff; /* Белый цвет текста при наведении */
+    background-color: #dc3545; /* Красный фон при наведении */
+    border-color: #dc3545;
+}
+
+.btn-outline-success {
+    /* color: #28a745;  /*Цвет текста */
+    /*border-color: #28a745; /*Цвет границы */
+    /*color: #3ee766; /* Цвет текста */
+    /*border-color: #3ee766; /* Цвет границы */
+    /*color: #86cf92; /* Светло-зеленый цвет текста */
+    /*border-color: #86cf92; /* Светло-зеленый цвет границы */
+    color: #00ff7f; /* Светло-зеленый цвет текста */
+    border-color: #00ff7f; /* Светло-зеленый цвет границы */
+    background-color: transparent; /* Прозрачный фон */
+}
+
+.btn-outline-success:hover {
+    color: #fff; /* Белый цвет текста при наведении */
+    background-color: #28a745; /* Зеленый фон при наведении */
+    border-color: #28a745;
+}
+
+.mb-3 {
+    margin-bottom: 1px; /* Добавляем отступ снизу (1rem = 16px) */
+}

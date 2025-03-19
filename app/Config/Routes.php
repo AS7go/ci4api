@@ -20,3 +20,5 @@ $routes->get('test/students/(:num)', 'TestController::studentDetails/$1');
 $routes->get('test/add-student', 'TestController::addStudent');
 $routes->get('test/update-student/(:num)', 'TestController::updateStudent/$1');
 $routes->get('test/delete-student/(:num)', 'TestController::deleteStudent/$1');
+$routes->get('test/students-table', 'TestController::studentsListTable');
+
